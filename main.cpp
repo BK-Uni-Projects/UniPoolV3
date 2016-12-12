@@ -1,11 +1,24 @@
-
+/*-----------------------------------------------------------
+Main Program - Pool Game V3
+-----------------------------------------------------------*/
 #include <stdio.h>
 #include <tchar.h>
 #include <math.h>
 
 #include "glut-3.7.6-bin\glut.h"
+#include "table.h"
 
-#include"simulation.h"
+/*-----------------------------------------------------------
+Macros
+-----------------------------------------------------------*/
+#define TWO_PI			(6.2832f)
+#define	SIM_UPDATE_MS	(10)
+//rendering options
+#define DRAW_SOLID	(0)
+
+
+//Create Table
+table gTable;
 
 //cue variables
 float gCueAngle = 0.0;
@@ -30,9 +43,6 @@ bool gCamU = false;
 bool gCamD = false;
 bool gCamZin = false;
 bool gCamZout = false;
-
-//rendering options
-#define DRAW_SOLID	(0)
 
 void DoCamera(int ms)
 {
