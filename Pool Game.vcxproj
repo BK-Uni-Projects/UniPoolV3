@@ -103,7 +103,6 @@
     <ClInclude Include="cushion.h" />
     <ClInclude Include="particle.h" />
     <ClInclude Include="particleset.h" />
-    <ClInclude Include="simulation.h" />
     <ClInclude Include="table.h" />
     <ClInclude Include="vecmath.h" />
   </ItemGroup>
