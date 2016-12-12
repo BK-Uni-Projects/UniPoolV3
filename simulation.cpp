@@ -1,7 +1,6 @@
 /*-----------------------------------------------------------
   Simulation Source File
   -----------------------------------------------------------*/
-#include"stdafx.h"
 #include"simulation.h"
 #include<stdio.h>
 #include<stdlib.h>
