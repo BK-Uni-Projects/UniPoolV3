@@ -5,7 +5,7 @@ Main Program - Pool Game V3
 #include <tchar.h>
 #include <math.h>
 
-#include "glut-3.7.6-bin\glut.h"
+#include "freeglut\include\GL\freeglut.h"
 #include "table.h"
 
 /*-----------------------------------------------------------
